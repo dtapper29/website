@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* NoMoldAtlanta 2010
+===================================== */
+
+/* LAYOUT
+===================================== */
+body {
+	background-image: url(images/bkgd.jpg);
+	background-repeat: repeat-x;
+	background-color: #000;
+	margin-top: 0px;
+}
+
+
+/* TYPE
+===================================== */
+h3 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	margin:20px 10px 10px 10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:12px;
+	padding-right:18px;
+	background-color: #000;
+}
+
+h6 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:12px;
+	padding-right:18px;
+	background-color: #BBB;
+}
+
+.main {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	padding-left:12px;
+	padding-right:18px;
+}
+
+.nav {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+font-size: 11px;
+font-weight: bold;
+}
+
+.subnav {
+font-family: Geneva, Arial, Helvetica, sans-serif;
+color: #0067AC;
+font-size: 11px;
+}
+
+.footer {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #ffffff;
+font-size:9px;
+padding-top:15px;
+padding-bottom:20px;
+}
+
+.info {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #000;
+font-size:12px;
+}
+
+.phone {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+color: #FF0000;
+font-weight:bold;
+font-size:15px;
+line-height:26px;
+padding-left:8px;
+}
+
+.header a:hover, .header a:link .header a:visited .header a:active {
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.header a:link {
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.header a:visited {
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.header a:hover {
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.header a:active {
+font-family: Arial, Helvetica, sans-serif;
+color: #000;
+font-size:28px;
+font-weight:bold;
+text-decoration:none;
+}
+
+/* LINKS
+===================================== */
+.main a:link, .main a:visited, .main a:active {
+	color: #519141;
+	text-decoration: underline;
+}
+.main a:hover {
+	color: #ff0103;
+	text-decoration: underline;
+}
+
+.nav a:link, .nav a:visited, .nav a:active {
+	color: #ffffff;
+	display:block;
+	width:100%;
+	text-decoration:none;
+	padding:5px 9px;
+}
+.nav a:hover {
+	color: #ffffff;
+	background: #000;
+	text-decoration: none;
+}
+
+.subnav a:link, .subnav a:visited, .subnav a:active {
+	color: #000;
+	text-decoration: none;
+	display:block;
+	width:100%;
+	padding:2px 20px;
+	background-image:url(images/arrow.gif);
+	background-repeat:no-repeat;
+}
+.subnav a:hover {
+	color: #ffffff;
+	background: #519141;
+	text-decoration: none;
+	background-image:url(images/arrowOVER.gif);
+	background-repeat:no-repeat;
+}
+
+.footer a:link, .footer a:visited, .footer a:active {
+	color: #ffffff;
+	text-decoration: underline;
+}
+.footer a:hover {
+	color: #0067AC;
+	text-decoration: underline;
+}
+
+.info a:link, .info a:visited, .info a:active {
+	color: #519141;
+	text-decoration: none;
+}
+.info a:hover {
+	color: #519141;
+	text-decoration: underline;
+}
+
+
+/* IMAGE STYLE
+=========================================== */
+a img {border-style:none none none none;}
+
+
+.imgRight {
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.imgLeft {
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
